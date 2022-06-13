@@ -67,3 +67,13 @@ li {
 .search-form {
   margin-bottom: 20px;
 }
+
+.footer {
+  height: 50px;
+  margin-top: -50px;
+  text-align: center;
+}
+
+.footer p a {
+  color: #000;
+}
