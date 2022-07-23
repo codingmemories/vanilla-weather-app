@@ -17,14 +17,12 @@
       crossorigin="anonymous"
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="src/styles.css" />
-    <title>Weather App</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Vanilla Weather App</title>
   </head>
 
   <body>
-    <!-- container -->
     <div class="container">
-      <!-- content -->
       <div class="weather-app">
         <form class="search-form" id="search-form">
           <div class="row">
@@ -47,7 +45,7 @@
             </div>
             <div class="col-3">
               <button
-                class="btn btn-outline-success w-100"
+                class="btn-current-local btn btn-outline-success w-100"
                 id="current-location-button"
               >
                 Current
@@ -79,12 +77,18 @@
       </div>
     </div>
     <footer class="footer">
-      <p>
-        <a href="https://codingmemories.github.io/weather-app/">
-          Link to my GitHub weather-app project
-        </a>
-      </p>
+      <small>
+        This project was coded by
+        <a
+          href="https://www.linkedin.com/in/vasylyna-lykhogodenko/"
+          target="_blank"
+          >Vasylyna Lykhogodenko</a
+        >
+        and is <a href="#" target="_blank">open-sourced on GitHub</a> and
+        <a href="#" target="_blank">hosted on Netlify</a>
+      </small>
     </footer>
-    <script src="src/index.js"></script>
+    <script src="./src/script.js"></script>
   </body>
 </html>
+
