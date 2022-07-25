@@ -23,13 +23,13 @@
 
   <body>
     <div class="container">
-      <div class="weather-app">
+      <div class="weather-app" id="weather-app">
         <form class="search-form mb-5" id="search-form">
           <div class="row">
             <div class="col-6">
               <input
                 type="search"
-                placeholder="Type a city.."
+                placeholder="Search for a city.."
                 autofocus="on"
                 autocomplete="off"
                 id="city-input"
@@ -40,12 +40,12 @@
               <input
                 type="submit"
                 value="Search"
-                class="form-control btn btn-outline-primary shadow-sm w-100"
+                class="form-control btn btn-outline-light shadow-sm w-100"
               />
             </div>
             <div class="col-3">
               <button
-                class="btn-current-local btn btn-outline-success w-100"
+                class="btn-current-local btn btn-outline-light w-100"
                 id="current-location-button"
               >
                 Current
