@@ -24,7 +24,7 @@
   <body>
     <div class="container">
       <div class="weather-app">
-        <form class="search-form" id="search-form">
+        <form class="search-form mb-5" id="search-form">
           <div class="row">
             <div class="col-6">
               <input
@@ -60,11 +60,11 @@
         </ul>
         <div class="row">
           <div class="col-6">
-            <div class="clearfix">
-              <img src="#" alt="" id="weather-icon" class="float-left">
+            <div class="clearfix weather-temperature">
+              <img src="" alt="" id="icon" class="float-left">
               <div class="float-left">
                 <span class="temperature" id="temperature"></span
-                ><span class="units">°C</span>
+                ><span class="units"><a id="celsius-link" class="active" href="#">°C</a> | <a id="fahrenheit-link" href="#">°F</a></span>
               </div>
             </div>
           </div>
@@ -74,6 +74,8 @@
               <li>Wind: <span id="wind"></span> km/h</li>
             </ul>
           </div>
+        </div>
+        <div class="weather-forecast" id="forecast">
         </div>
       </div>
     </div>
@@ -92,4 +94,3 @@
     <script src="./src/script.js"></script>
   </body>
 </html>
-

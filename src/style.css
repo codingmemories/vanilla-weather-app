@@ -93,10 +93,32 @@ li::first-letter {
   line-height: 1;
 }
 
-.units {
+.weather-temperature .active {
   color: #fff;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.units {
+  color: #7c7c7c;
   position: relative;
   top: -34px;
+}
+
+.weather-forecast {
+  text-align: center;
+}
+
+.weather-forecast-date {
+  color: #7c7c7c;
+  font-size: medium;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
 
 .footer {
