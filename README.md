@@ -13,3 +13,9 @@
 * Displays real-time weather information
 * Allows users to search for weather conditions in different cities
 * Shows temperature, humidity, wind speed, and other details
+
+## API Reference
+Here is a link to the [OpenWeatherMap API](https://openweathermap.org/api) which was used to make API calls.
+
+## Usage
+Once the app is running, simply enter the name of the city you want to check the weather for in the search bar and press enter. The app will then display the current weather conditions for that city.
